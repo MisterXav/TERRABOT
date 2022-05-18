@@ -1,3 +1,3 @@
-# Luxuary
+# TERRA Bot
 
-Un bot pour le serveur privé Lux
+TERRA bot est un bot privé pour le discord de TERRA Hardware & MultiGaming

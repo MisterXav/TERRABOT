@@ -1,0 +1,31 @@
+{
+  "name": "luxuary",
+  "version": "1.0.0",
+  "description": "A bot for the lux server",
+  "main": "app/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Léo & Xav",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "discord-player": "^5.2.0",
+    "discord.js": "^13.3.1",
+    "discord.js-self": "^12.0.4",
+    "dotenv": "^8.2.0",
+    "fakerator": "^0.3.2",
+    "ffmpeg-static": "^4.3.0",
+    "fs": "0.0.1-security",
+    "got": "^11.8.3",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "install": "^0.13.0",
+    "js-yaml": "^4.0.0",
+    "natural": "^5.0.3",
+    "node-fetch": "^2.6.1",
+    "node-schedule": "^2.0.0",
+    "yt-search": "^2.10.2",
+    "ytdl-core": "^4.9.1"
+  }
+}

@@ -1,0 +1,113 @@
+
+
+                                                                                                                   
+#    _____          ______   _____   _____       ___________   _____        _____        ___________   ______   _____    # 
+#   |\    \         \     \  \    \  \    \     /    /\     \  \    \     /      |_      \          \ |\     \ |     |   # 
+#    \\    \         \    |  |    |   \    |   |    /  \    |  |    |    /         \      \    /\    \\ \     \|     |   # 
+#     \\    \         |   |  |    |    \    \ /    /    |   |  |    |   |     /\    \      |   \_\    |\ \           |   # 
+#      \|    | ______ |    \_/   /|     \    |    /     |    \_/   /|   |    |  |    \     |      ___/  \ \____      |   # 
+#       |    |/      \|\         \|     /    |    \     |\         \|   |     \/      \    |      \  ____\|___/     /|   # 
+#       /            || \         \__  /    /|\    \    | \         \__ |\      /\     \  /     /\ \/    \   /     / |   # 
+#      /_____/\_____/| \ \_____/\    \|____|/ \|____|    \ \_____/\    \| \_____\ \_____\/_____/ |\______|  /_____/  /   # 
+#     |      | |    ||  \ |    |/___/||    |   |    |     \ |    |/___/|| |     | |     ||     | | |     |  |     | /    # 
+#     |______|/|____|/   \|____|   | ||____|   |____|      \|____|   | | \|_____|\|_____||_____|/ \|_____|  |_____|/     # 
+#                              |___|/                            |___|/                                               
+
+
+
+# Le préfixe des commandes du bot
+prefix : "t!"
+
+
+# Les personnes qui ont la permission d'executer les commandes owner only
+owners:
+  - "625079227427061760"  # Val
+  - "401718888561377280"  # Xav
+
+
+# Les différents channels utilisés (Mettre l'id entre guillements "")
+channels:
+
+  # Le channel où sont envoyés les messages de bienvenue
+  welcomeChannel: "482119456701808641"  # Général 
+
+  # Le channel où le bot spam les personnes à spammer
+  spamChannel: "814628139459411988"  # Général 
+
+  radioChannel: "833023364691394611" #panneau affichage
+
+  suggestChannel: "482133821802807306" # Suggestion
+
+
+# Les différents rôles utilisés (Mettre l'id entre guillements "")
+roles:
+
+  # Le rôle donné aux personnes goulaguées
+  goulagRole: "827249351231143996"  # goulag 
+
+
+# Personnes pour utiliser la commande anniv
+annivUsers:
+  - "526529532677586954" # Léo
+  - "401718888561377280" # Xav
+  - "692030845384523833" # Zoé
+
+# Personnes pour les annonces radio
+radioUsers: 
+  - "563824894865834007" # Alex
+  - "401718888561377280" # Xav
+
+
+# Les paramètres du starboard
+starboard:
+
+  # Le channel du starboard
+  channel: "916462893615165491"  # Les pépites 
+  
+  #  Le nombre de réactions minimum nécessaires pour envoyer un message
+  # dans le channel du starboard
+  reactCount: 3
+
+
+# Les statuts du bots (change toutes les 5 secs)
+activities:
+  - "Faites l!help pour voir la liste des commandes !"
+  - "Surveiller le Lux"
+  - "Xav le bg"
+  - "Manger le bras d'Anthony"
+
+
+cah:  # Cards against humanity ou limite limite
+  goal: 5
+  minPlayers: 2
+
+
+# La config des commandes
+commands: 
+
+  # Commande statut
+  status: 
+
+    # Le cooldown de la commande statut en secondes
+    cooldownAmount: 300
+    
+    # Les personnes blacklistées (mettre l'id entre guillements "")
+    blacklistedPeople:
+      -
+
+    # Les mots blacklistés (mettre entre guillements "")
+    # Mettre en minuscule
+    blacklistedWords:
+      - "salope"
+      - "pute"
+
+# TERRA MUSIC
+opt:
+  dj:
+    enabled: true
+    roleName:
+      - "Fondateur"
+    commands:
+      - "skip"
+  maxVol: 100
+  discordPlayer : {}

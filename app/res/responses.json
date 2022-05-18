@@ -1,0 +1,18 @@
+{
+    "greetings": [
+        "Salut bg !",
+        "Hey comment ça va bg ?",
+        "Bonjour !"
+    ],
+    "howru": [
+        "Ça va et toi ?", 
+        "Niquel merci bg",
+        "Bien bien"
+    ],
+    "whattodo": [
+        "Et bien tu peux discuter avec des gens ou alors utiliser mes commandes ! *(`l!help` pour plus d'infos)*"
+    ],
+    "bored": [
+        "Si tu t'ennuie tu peux toujours essayer mes commandes ! *(`l!help` pour plus d'infos)*"
+    ]
+}
